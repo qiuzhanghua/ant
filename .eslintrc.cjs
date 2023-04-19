@@ -4,11 +4,12 @@ module.exports = {
     es2021: true
   },
   extends: [
+	  "standard",
     "plugin:react/recommended",
-    "standard-with-typescript"
   ],
   overrides: [
   ],
+	parser: "@typescript-eslint/parser",
   parserOptions: {
 		project: "./tsconfig.json",
     ecmaVersion: "latest",
@@ -18,8 +19,8 @@ module.exports = {
     "react"
   ],
   rules: {
-	  "semi": ["error", "always"],
-	  "quotes": ["error", "double"]
+	  "semi": ["warn", "always"],
+	  "quotes": ["warn", "double"]
   },
 	settings: {
 		react: {
