@@ -11,6 +11,7 @@
     "format": "prettier-eslint \"src/**/*.ts\" \"src/**/*.tsx\" --write"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.0.1",
     "@ant-design/pro-components": "^2.4.4",
     "antd": "^5.4.3",
     "react": "^18.2.0",
