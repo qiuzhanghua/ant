@@ -19,6 +19,7 @@ module.exports = {
     "react"
   ],
   rules: {
+    "no-use-before-define": "off",
 	  "semi": ["warn", "always"],
 	  "quotes": ["warn", "double"]
   },
